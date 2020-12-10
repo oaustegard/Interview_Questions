@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.lang.Math; 
 import java.lang.IllegalArgumentException;
 
-class Main {
+class Factors {
   public static void main(String[] args) {
     //System.out.println("1, 2, 3, 6, 7, 14, 21, 42");
     System.out.println(factor(1));
