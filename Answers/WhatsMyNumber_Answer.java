@@ -26,7 +26,7 @@ class WhatsMyNumber_Answer {
   public static void example() {
     Instant start = Instant.now();
 
-    List<String> result = IntStream.rangeClosed(10, 3223) // cursory filter based on the criteria 
+    List<String> result = IntStream.rangeClosed(23, 3223) // cursory filter based on the criteria 
       .filter(i -> {
         return true
           //the order of these will determine total time taken - balance of expense and effectiveness 
@@ -59,7 +59,7 @@ class WhatsMyNumber_Answer {
 
   private static boolean isPrime(int i) {
     eprime++;
-    for (int n=2; n<Math.sqrt(i); n++){
+    for (int n=2; n<=Math.sqrt(i); n++){
       if (i % n == 0) {return false;}
     }
     return true;
