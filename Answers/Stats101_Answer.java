@@ -1,17 +1,16 @@
-/*
-Mean, Median, and Mode
+/* Mean, Median, and Mode
 
 In a set of numbers, the mean is the average, the mode is the number that occurs the most, and if you rearrange all the numbers numerically, the median is the number in the middle.
 
-Create three functions that allow the user to find the mean, median, and mode of a list of numbers. If you have access or know of functions that already complete these tasks, do not use them.
+Create three static utility functions in a separate class that allow the user to find the mean, median, and mode of a list of numbers. If you have access or know of functions that already complete these tasks, do not use them.
 
 -In the mean function, give the user a way to select how many decimal places they want the answer to be rounded to.
 -If there is an even number of numbers in the list, return both numbers that could be considered the median.
 -If there are multiple modes, return all of them.
 */
 
-class Stats101 {
-  public static void main(String[] args) {
-    System.out.println("Hello stats!");
+class Stats101_Answer {
+  public static void example() {
+    System.out.println("example invocation to go here");
   }
 }
